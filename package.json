@@ -1,0 +1,25 @@
+{
+  "name": "project.cafe_preto_bot.node",
+  "version": "1.0.0",
+  "description": "A Discord bot.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "zTiagok",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/node": "^22.15.21",
+    "tslib": "^2.8.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0"
+  }
+}
